@@ -1,0 +1,6 @@
+---
+- name: nstall apache
+  yum:
+    name: httpd
+    state: latest
+
