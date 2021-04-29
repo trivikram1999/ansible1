@@ -1,6 +1,5 @@
 ---
 - hosts: linux
-  become: yes
   tasks:
   - name: Install apache on Centos
     yum:
